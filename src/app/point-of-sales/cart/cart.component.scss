@@ -1,0 +1,52 @@
+:host {
+  width: 100%;
+  height: 100%;
+  .cart {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    .header {
+      padding: 10px;
+      background-color: #3498DB;
+      color: #ffffff;
+    }
+    .items {
+      flex: 4 0 0;
+      overflow: auto;
+      border-bottom: 2px solid #fcfcfc;
+      .content {
+        height: 100%;
+        table {
+          width: 100%;
+          overflow: auto;
+          background-color: #ECF0F1 !important;
+        }
+      }
+    }
+    .totals {
+      flex: 1 0 0;
+      padding: 5px;
+      .values {
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: [col] 50% [col] 50% ;
+        grid-template-rows: [row] auto [row] auto [row] ;
+        font-size: x-large;
+      }
+      .controls {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        button {
+          margin: 10px;
+        }
+      }
+    }
+    .totals .values, .cart .header {
+      background-color: #3498DB;
+      color: #ffffff;
+    }
+  }
+}

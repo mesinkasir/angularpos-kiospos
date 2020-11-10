@@ -1,0 +1,66 @@
+:host {
+  .container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 35px;
+    grid-gap: 0;
+    height: 100vh;
+
+    .pos-header {
+      grid-area: header;
+      background-color: #2C3E50;
+      color: #ffffff;
+    }
+
+    .pos-main {
+      grid-area: content;
+      height: auto;
+      display: flex;
+      background-color: #ECF0F1;
+      .pos-menu {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .products {
+          flex: 2;
+          border-bottom: 2px solid #fcfcfc;
+        }
+        .deals {
+          flex: 1;
+        }
+        .products, .deals {
+          display: flex;
+          flex-direction: column;
+          .header {
+            background-color: #2980B9;
+            color: #ffffff;
+            padding: 10px;
+          }
+          .grid {
+            padding: 10px;
+          }
+        }
+      }
+      .pos-cart {
+        flex: 1;
+        border-left: 2px solid #fcfcfc;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+
+    .pos-footer {
+      grid-area: footer;
+      background-color: #fcfcfc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: small;
+    }
+  }
+}

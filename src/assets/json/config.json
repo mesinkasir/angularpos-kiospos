@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Ayam Goreng",
+	  "image": "https://1.bp.blogspot.com/-RsmYCvY_Mq4/X6qctQDNAfI/AAAAAAAALk8/C4nPxotXMQo6p_454Gmvge_ig-ekR9hIACLcBGAsYHQ/s960/ayam%2Bgoreng.jpg",
+      "price": "25000"
+    },
+     {
+      "name": "Bebek Goreng",
+	  "image": "https://1.bp.blogspot.com/-n9G8xTcdoTQ/X6qcuDsXd1I/AAAAAAAALlA/4Fm8Dn2B38cJoLbYsVZS_8karjNEfeRNwCLcBGAsYHQ/s960/bebek%2Bpenyet.jpg",
+      "price": "25000"
+    },
+	    {
+      "name": "Iga Penyet",
+	  "image": "https://1.bp.blogspot.com/-SwFCxEc6tzo/X6qcuX4TcVI/AAAAAAAALlE/TA4V56MWTvclx8LcpO7i0uxF_5E_qCqowCLcBGAsYHQ/s277/iga%2Bpenyet.jpg",
+      "price": "55000"
+    },
+	    {
+      "name": "Kikil Sapi",
+	  "image": "https://1.bp.blogspot.com/-LoBc55o9T-o/X6qcvAuOovI/AAAAAAAALlI/KyQ6MRPEpO4H6fK25Jn7kOXDP0j9a-pUwCLcBGAsYHQ/s960/kikil.jpg",
+      "price": "55000"
+    },
+	    {
+      "name": "Black Rawon",
+	  "image": "https://1.bp.blogspot.com/-SPkf9P0ykbQ/X6qcxTKGZsI/AAAAAAAALlg/wK_xsd7TYhk0fYwkGPYV8FlJhFr4mi4TgCLcBGAsYHQ/s960/rawon.jpg",
+      "price": "45000"
+    },
+	    {
+      "name": "Es Pisang Hijau",
+	  "image": "https://1.bp.blogspot.com/-Ij09FiwA5lI/X6qfGneF4iI/AAAAAAAALmA/nqyeVKTTiEQOU8zAI7aIxf_sNUj5CpunACLcBGAsYHQ/s299/es%2Bpisang%2Bhijau.jpg",
+      "price": "25000"
+    },
+	    {
+      "name": "Es Campur",
+	  "image": "https://1.bp.blogspot.com/-d59CDJUTN7s/X6qfGfflfgI/AAAAAAAALl8/FZat_R1-1C0yWvLsT6cLcr1Obujd17_wACLcBGAsYHQ/s307/es%2Bcampur.jpg",
+      "price": "20000"
+    },
+	    {
+      "name": "Capucino",
+	  "image": "https://1.bp.blogspot.com/-xic7dQHNMyc/X6qfGTlnWAI/AAAAAAAALl4/EaAj6Q8GHTU0bmTTVnCIwah5oeoRIh41QCLcBGAsYHQ/s275/capucino.jpg",
+      "price": "25000"
+    },
+	    {
+      "name": "Es Teh",
+	  "image": "https://1.bp.blogspot.com/-vLC0EM04_x0/X6qfHeFG8NI/AAAAAAAALmE/8FfWsz50ZJQ3dEelfWoirNfu7OZ7zceeACLcBGAsYHQ/s263/es%2Bteh.jpg",
+      "price": "20000"
+    }
+  ]
+}

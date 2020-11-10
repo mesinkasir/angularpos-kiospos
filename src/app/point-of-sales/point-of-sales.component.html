@@ -1,0 +1,23 @@
+<div class="container">
+<div class="col-12 col-md-12">
+  <div class="pos-header">
+    <app-header></app-header>
+  </div>
+  <div class="col-12 col-md-12">
+<p class="text-white text-center lead">Kios POS is a digital calculator build with angular, this apps is Beta version , open source code project present by <a target="_blank" href="https://phoneixsangular.web.app" class="text-white">phoneixsangular.web.app</a></p>
+</div>
+  <div class="pos-main bg-dark">
+    <div class="pos-menu">
+      <div class="products border border-white">
+      <app-grid-system [dataSrc]="configJson?.products"></app-grid-system>
+         </div>
+	</div>
+    <div class="pos-cart border border-white">
+      <app-cart [dataSource]="cartItems$ | async"></app-cart>
+    </div>
+  </div>
+  <div class="pos-footer bg-dark text-white">
+    © angular Kios-Pos - by <a href="https://phoneixsangular.web.app" class="text-white" target="_blank">phoenixsangular.web.app</a>
+  </div>
+</div>
+</div>

@@ -1,0 +1,4 @@
+<div class="container bg-dark p-3" *ngIf="timeService.appTime$ | async as time">
+  <h2><strong><img class="img-fluid" src="https://mesinkasir.github.io/assets/img/angular2-logo-red.png" width="60"/><span >Angular Kios-POS</span></strong></h2>
+  <span>{{ time | date:'medium'}}</span>
+</div>
