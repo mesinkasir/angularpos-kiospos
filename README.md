@@ -5,21 +5,25 @@
 
 [Click for Video demo](https://www.youtube.com/watch?v=sbZZwUHpSzY)
 
+----------------------------------------------------------------------------------------------------------------------
+
 ## HOW TO INSTALL
+
+Installation blogs : [click here](https://www.hockeycomputindo.com/2020/11/free-download-angular-pos-open-source.html)
+
+Installation Video : [click here](https://www.youtube.com/watch?v=I4zuwV203Kk)
+
+----------------------------------------------------------------------------------------------------------------------
 
 Download NPM or Git 
 
-Install angular globaly just open cmd / npm and run : npm install -g @angular/cli
+Install angular globaly just open cmd / npm and run : `npm install -g @angular/cli`
 
 Download this apps extract file download to your project, then right click and select git bash here
 
-run :
+run `npm install`
 
-npm install
-
-after installation success you can run this apps, just run command
-
-ng serve
+after installation success you can run this apps, just run command `ng serve`
 
 Open localhost:4200 on your web browser.
 
