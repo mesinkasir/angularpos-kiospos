@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# KIOSPOS APPS - Angular Point of Sale.
 
-You can use the [editor on GitHub](https://github.com/mesinkasir/angularpos-kiospos/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Angular POS point of sale kiospos apps](https://a.fsdn.com/con/app/proj/angularpos/screenshots/angular%20point%20of%20sale.png/max/max/1) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+[Click for Video demo](https://www.youtube.com/watch?v=sbZZwUHpSzY)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+----------------------------------------------------------------------------------------------------------------------
 
-```markdown
-Syntax highlighted code block
+## HOW TO INSTALL
 
-# Header 1
-## Header 2
-### Header 3
+Installation blogs : [click here](https://www.hockeycomputindo.com/2020/11/free-download-angular-pos-open-source.html)
 
-- Bulleted
-- List
+Installation Video : [click here](https://www.youtube.com/watch?v=I4zuwV203Kk)
 
-1. Numbered
-2. List
+----------------------------------------------------------------------------------------------------------------------
 
-**Bold** and _Italic_ and `Code` text
+Download NPM or Git 
 
-[Link](url) and ![Image](src)
-```
+Install angular globaly just open cmd / npm and run : `npm install -g @angular/cli`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Download this apps extract file download to your project, then right click and select git bash here
 
-### Jekyll Themes
+run `npm install`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mesinkasir/angularpos-kiospos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+after installation success you can run this apps, just run command `ng serve`
 
-### Support or Contact
+Open localhost:4200 on your web browser.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For create new product / item you can edit and insert new product on src\assets\json\config.json file
+
+Hapy codding !!
+
+If you need angular source code project just visit :
+https://phoneixsangular.web.app
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
